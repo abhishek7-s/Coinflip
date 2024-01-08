@@ -1,0 +1,236 @@
+@media screen and (max-width:1200px) {
+    
+    .header h1{
+        font-size: 35px;
+    }
+    .navlink{
+        width: 60vw;
+    }
+    .lgnav{
+        display: none;
+        
+    }
+
+    .mainInfo{
+        top: 25%;
+        left: 10%;
+        width: 80vw;
+    }
+    .mainInfo h1{
+        font-size: 60px;
+    }
+    .mainInfo p{
+        font-size: 15px;
+    }
+
+    .orgimg{
+        /* position: relative; */
+        /* display: none; */
+        height: 350px;
+        width: 450px;
+        background-repeat: no-repeat;
+        border-radius: 25%;
+        background-position: center;
+    }
+    
+    
+    
+
+}
+@media screen and (max-width:650px) {
+    .header{
+        align-content:space-evenly ;
+    }
+    .header h1{
+        font-size: 30px;
+        padding-right: 85px;
+    }
+    .navlink{
+        display: none;
+    }
+    .lgnav{
+        display: none;
+    }
+    .tbtn {
+         display: flex;
+    }
+
+    .mainimg{
+        width: 100%;
+        height: 70vh;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+    }
+    .mainInfo{
+        top: 25%;
+        left: 10%;
+        width: 80vw;
+    }
+    .mainInfo h1{
+        font-size: 35px;
+    }
+    .mainInfo p{
+        font-size: 15px;
+    }
+
+    .cards{
+        /* display: none; */
+        /* background-color:blue; */
+        position: relative;
+    }
+    .cards img{
+        /* display: none; */
+        margin: 20px;;
+        height: 80px;
+        width: 80px;
+    }
+    .cd{
+        width: 80%;
+    }
+    .cd h1{
+        margin: 10px;
+    }
+    .cd h3{
+        font-size: 16px;
+    }
+
+    .support{
+        /* position: relative; */
+        top: 100vh;
+        /* left: 1vh; */
+        /* flex-wrap: wrap; */
+        /* background-color: red; */
+    }
+    .orgimg{
+        position: relative;
+        left: 15vw;
+        height: 200px;
+        width: 1150px;
+        border-radius: 25%;
+        background-position:center;
+        background-repeat: no-repeat ;
+    }
+    
+    .spinfo h1{
+        margin: 20px;
+        width: 80%;
+        font-size: 35px;
+    }
+    .spinfo p{
+        margin: 10px;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .chart{
+        position: relative;
+        top: 95vh;
+        width: 100%;
+    }
+    .chart h1{
+        font-size: 35px;
+        width: 80%;
+    }
+    .chart p{
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .chtable{
+        width:88% ;
+    }
+    .chtable h2{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .item{
+        height: 70px;
+    }
+    .item img{
+        width: 15%;
+    }
+    .chtable .activebtn{
+        font-size: 12px;
+        width: 75px;
+        height: 35px;
+        border: 2px solid rgb(47, 255, 186);
+    }
+
+
+
+    .investSection{
+        position: relative;
+        top: 100vh;
+    }
+    .investSection h1{
+        font-size: 35px;
+    }
+
+
+    .investInfo{
+        width: 95%;
+    }
+    .investInfo img{
+        position: relative;
+        top: 10px;
+        height: 250px;
+        display: block;
+        z-index: 20;
+    }
+    .investInfo #is1{
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        align-items: center;
+        width: 300px;
+        height: 350px;
+        display: block;
+    }
+
+    #is1{
+        display: none;
+
+    }
+    #is2{
+        display: none;
+    }
+
+
+    .mailsection{
+        position: relative;
+        top: 90vh;
+        text-align: center;
+    }
+    .mailsection h1{
+        font-size: 40px;
+    }
+    .mailsection h3{
+        font-size: 15px;
+    }
+
+    .footersection{
+        position: relative;
+        top: 100vh;
+    }
+
+    .linfo p{
+        font-size: 12px;
+    }
+    .minfo a{
+      font-size:14px ;
+      padding: 7px;
+    }
+
+    footer{
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid gray;
+    }
+    footer h2{
+        font-size: 15px;
+    }
+}
+
